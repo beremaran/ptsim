@@ -1,0 +1,12 @@
+{
+  "map": "test",
+  "maxTicks": 1000,
+  "tickDelay": 100,
+  "busSpeed": 0.5,
+  "busWaitTime": 2,
+  "busCapacity": 24,
+  "numberOfBuses": 4,
+  "busDepartureInterval": 40,
+  "passengerArrivalRate": 5,
+  "dataDirectory": "/home/beremaran/dev/ptsim/data"
+}
