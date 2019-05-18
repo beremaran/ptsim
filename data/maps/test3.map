@@ -1,11 +1,10 @@
 0 # ground
 1 # path
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d # stop names
-4 # number of tariffs
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-B R Q P D C
-D P O N F E
-Z a b G I J c d W X Y
+3 # number of tariffs
+6 30 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+4 60 Z a b G H I J c d W X Y
+4 60 W d c J K L M N O P Q R S T U V
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 0 0 A 0 0 0 0 B 0 0 0 0 C 0 0 0 0 D 0 0 0 0 E 0 0 0 0 F 0 0
 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
