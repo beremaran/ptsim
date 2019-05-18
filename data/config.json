@@ -2,7 +2,7 @@
   "map": "test3",
   "maxTicks": 1000,
   "tickDelay": 100,
-  "busSpeed": 0.5,
+  "busSpeed": 1,
   "busWaitTime": 2,
   "busCapacity": 40,
   "passengerArrivalRate": 5,
