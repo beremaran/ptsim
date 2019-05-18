@@ -5,6 +5,6 @@
   "busSpeed": 0.5,
   "busWaitTime": 2,
   "busCapacity": 40,
-  "passengerArrivalRate": 10,
+  "passengerArrivalRate": 5,
   "dataDirectory": "/home/beremaran/dev/ptsim/data"
 }
