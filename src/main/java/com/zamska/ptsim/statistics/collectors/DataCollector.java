@@ -1,6 +1,7 @@
-package com.zamska.ptsim.statistics;
+package com.zamska.ptsim.statistics.collectors;
 
 import com.zamska.ptsim.event.Event;
+import com.zamska.ptsim.statistics.CollectorResult;
 
 import java.util.List;
 

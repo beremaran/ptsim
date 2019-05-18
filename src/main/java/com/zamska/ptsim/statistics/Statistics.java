@@ -1,6 +1,7 @@
 package com.zamska.ptsim.statistics;
 
 import com.zamska.ptsim.entities.Updatable;
+import com.zamska.ptsim.statistics.collectors.DataCollector;
 
 import java.util.ArrayList;
 import java.util.Collections;

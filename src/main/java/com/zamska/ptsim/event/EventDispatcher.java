@@ -2,7 +2,7 @@ package com.zamska.ptsim.event;
 
 import com.zamska.ptsim.entities.Updatable;
 import com.zamska.ptsim.entities.Entity;
-import com.zamska.ptsim.statistics.DataCollector;
+import com.zamska.ptsim.statistics.collectors.DataCollector;
 import com.zamska.ptsim.statistics.DataCollectorListener;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -3,7 +3,6 @@ package com.zamska.ptsim.statistics.collectors;
 import com.zamska.ptsim.entities.Passenger;
 import com.zamska.ptsim.event.Event;
 import com.zamska.ptsim.statistics.CollectorResult;
-import com.zamska.ptsim.statistics.DataCollector;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.*;

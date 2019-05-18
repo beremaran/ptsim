@@ -1,20 +1,15 @@
 package com.zamska.ptsim;
 
-import com.zamska.ptsim.event.Event;
 import com.zamska.ptsim.simulation.Simulation;
-import com.zamska.ptsim.statistics.CollectorResult;
-import com.zamska.ptsim.statistics.CollectorResultFormatter;
-import com.zamska.ptsim.statistics.DataCollector;
-import com.zamska.ptsim.statistics.TabularFormatter;
+import com.zamska.ptsim.statistics.formatters.CollectorResultFormatter;
+import com.zamska.ptsim.statistics.formatters.TabularFormatter;
 import com.zamska.ptsim.statistics.collectors.BusUtilizationCollector;
-import com.zamska.ptsim.statistics.collectors.PassengerWaitTimeCollector;
 import com.zamska.ptsim.statistics.collectors.TariffWaitTimeCollector;
 import com.zamska.ptsim.utils.InvalidMapFileException;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
-import java.util.List;
 
 public class GUIApplication {
     private Simulation simulation;

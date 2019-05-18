@@ -1,4 +1,6 @@
-package com.zamska.ptsim.statistics;
+package com.zamska.ptsim.statistics.formatters;
+
+import com.zamska.ptsim.statistics.CollectorResult;
 
 import java.util.List;
 

@@ -4,7 +4,6 @@ import com.zamska.ptsim.entities.Bus;
 import com.zamska.ptsim.entities.Tariff;
 import com.zamska.ptsim.event.Event;
 import com.zamska.ptsim.statistics.CollectorResult;
-import com.zamska.ptsim.statistics.DataCollector;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.*;
@@ -50,9 +49,10 @@ public class BusUtilizationCollector implements DataCollector {
 
         List<CollectorResult> results = new ArrayList<>();
 
+        List<Tariff> tariffs = new ArrayList<>(busUtils.keySet());
         busUtils.forEach((id, utils) -> {
             double average = utils.stream().mapToDouble(u -> u).sum() / utils.size();
-            results.add(new CollectorResult(id.toString() + " Util", (float) average));
+            results.add(new CollectorResult("Tariff #" + (tariffs.indexOf(id)) + " U", (float) average));
         });
 
         return results;

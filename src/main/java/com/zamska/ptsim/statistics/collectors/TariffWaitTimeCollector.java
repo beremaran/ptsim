@@ -5,7 +5,6 @@ import com.zamska.ptsim.entities.Passenger;
 import com.zamska.ptsim.entities.Tariff;
 import com.zamska.ptsim.event.Event;
 import com.zamska.ptsim.statistics.CollectorResult;
-import com.zamska.ptsim.statistics.DataCollector;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.*;
@@ -50,11 +49,12 @@ public class TariffWaitTimeCollector implements DataCollector {
     public List<CollectorResult> getResults() {
         List<CollectorResult> results = new ArrayList<>();
 
+        List<Tariff> tariffs = new ArrayList<>(passengersWaitedFor.keySet());
         passengersWaitedFor.forEach((tariff, longs) -> {
             if (!longs.isEmpty())
                 results.add(
                         new CollectorResult(
-                                tariff.toString() + " Waiting Time",
+                                "Tariff #" + (tariffs.indexOf(tariff)) + " W",
                                 (float) longs.stream().mapToLong(l -> l).average().getAsDouble()
                         )
                 );
