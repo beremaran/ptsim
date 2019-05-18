@@ -1,4 +1,4 @@
-package com.zamska.ptsim.gui;
+package com.zamska.ptsim.entities;
 
 import java.awt.*;
 

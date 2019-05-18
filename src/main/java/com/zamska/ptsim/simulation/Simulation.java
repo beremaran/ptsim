@@ -3,7 +3,7 @@ package com.zamska.ptsim.simulation;
 import com.zamska.ptsim.entities.BusManager;
 import com.zamska.ptsim.event.Event;
 import com.zamska.ptsim.event.EventSubscriber;
-import com.zamska.ptsim.gui.Drawable;
+import com.zamska.ptsim.entities.Drawable;
 import com.zamska.ptsim.statistics.Statistics;
 import com.zamska.ptsim.utils.InvalidMapFileException;
 import com.zamska.ptsim.utils.MapParser;

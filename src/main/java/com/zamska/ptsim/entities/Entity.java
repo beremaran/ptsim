@@ -2,7 +2,6 @@ package com.zamska.ptsim.entities;
 
 import com.zamska.ptsim.event.Event;
 import com.zamska.ptsim.event.EventSubscriber;
-import com.zamska.ptsim.gui.Drawable;
 import com.zamska.ptsim.models.Vector2;
 import com.zamska.ptsim.simulation.Context;
 import org.apache.logging.log4j.LogManager;
