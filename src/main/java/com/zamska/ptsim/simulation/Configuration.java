@@ -12,8 +12,6 @@ public class Configuration {
     private long maxTicks;
     private long tickDelay;
     private int busCapacity;
-    private int numberOfBuses;
-    private int busDepartureInterval;
     private int busWaitTime;
     private float busSpeed;
     private float passengerArrivalRate;
@@ -49,22 +47,6 @@ public class Configuration {
 
     public void setBusCapacity(int busCapacity) {
         this.busCapacity = busCapacity;
-    }
-
-    public int getNumberOfBuses() {
-        return numberOfBuses;
-    }
-
-    public void setNumberOfBuses(int numberOfBuses) {
-        this.numberOfBuses = numberOfBuses;
-    }
-
-    public int getBusDepartureInterval() {
-        return busDepartureInterval;
-    }
-
-    public void setBusDepartureInterval(int busDepartureInterval) {
-        this.busDepartureInterval = busDepartureInterval;
     }
 
     public float getPassengerArrivalRate() {

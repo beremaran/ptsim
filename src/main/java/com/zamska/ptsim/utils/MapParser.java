@@ -61,6 +61,11 @@ public class MapParser {
 
             String[] tariffStops = tariffLine.split("\\s");
 
+            tariff.setNumberOfBuses(Integer.valueOf(tariffStops[0]));
+            tariff.setBusDepartureInterval(Integer.valueOf(tariffStops[1]));
+
+            tariffStops = Arrays.copyOfRange(tariffStops, 2, tariffStops.length);
+
             for (String tariffStop : tariffStops) {
                 tariff.getStopList().add(
                         getStopByName(tariffStop)
