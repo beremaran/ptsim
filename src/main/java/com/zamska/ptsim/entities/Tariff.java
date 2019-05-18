@@ -13,6 +13,10 @@ public class Tariff extends Entity {
     public static final String TYPE = "TARIFF";
 
     private Color color;
+
+    private int numberOfBuses;
+    private int busDepartureInterval;
+
     private List<Stop> stopList;
 
     public Tariff() {
@@ -79,6 +83,22 @@ public class Tariff extends Entity {
 
     public void setColor(Color color) {
         this.color = color;
+    }
+
+    public int getNumberOfBuses() {
+        return numberOfBuses;
+    }
+
+    public void setNumberOfBuses(int numberOfBuses) {
+        this.numberOfBuses = numberOfBuses;
+    }
+
+    public int getBusDepartureInterval() {
+        return busDepartureInterval;
+    }
+
+    public void setBusDepartureInterval(int busDepartureInterval) {
+        this.busDepartureInterval = busDepartureInterval;
     }
 
     @Override
